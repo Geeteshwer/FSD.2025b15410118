@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF"8></meta>
+<title>College Admission Form</title>
+</head>
+<body>
+<center>
+<h1>College Admission Form<h1>
+<label for="name">Name<input type="text" id="intro" value="name"></label>
+<br>
+<label for="email">Email<input type="text" id="intro" value="Email"></label>
+<br>
+<label for="admission no">Admission<input type="text" id="intro" value="number"></label>
+<br>
+<label for="branch">Choose Your Branch</label>
+<select id="Branch">
+<option id="branch">CSE</option>
+<option id="DS">CSEDS</option>
+<option id="AIML">CSEAIML</option>
+</select>
+<br>
+<label for="Roadmap">Your Roadmap for Future</label>
+<textarea id="Roadmap" value="Future" row=30 col=30>
+<br>
+<br>
+<input type="button" value="submit" id="submit"></input>
+</center>
+</body>
+</html>
+
+
