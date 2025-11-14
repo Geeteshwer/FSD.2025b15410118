@@ -1,60 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
-  </head>
-  <body>
-    <div class="menu">
-      <main>
-        <h1>CAMPER CAFE</h1>
-        <p class="established">Est. 2020</p>
-        <hr>
-        <section>
-          <h2>Coffee</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
-          <article class="item">
-            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Mocha</p><p class="price">4.50</p>
-          </article>
-        </section>
-        <section>
-          <h2>Desserts</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
-          <article class="item">
-            <p class="dessert">Donut</p><p class="price">1.50</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
-          </article>
-        </section>
-      </main>
-      <hr class="bottom-line">
-      <footer>
-        <p>
-          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
-        </p>
-        <p class="address">123 Free Code Camp Drive</p>
-      </footer>
-    </div>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+
+        <form>
+            <h2>Registration Form</h2>
+            <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text"
+                    required /></label>
+            <br>
+            <br>
+            <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text"
+                    required /></label>
+            <br>
+            <br>
+            <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+            <br>
+            <br>
+            <label for="new-password">Create a New Password: <input id="new-password" name="new-password"
+                    type="password" required /></label>
+            <br>
+            <br>
+            <label for="Course">Choose your Course</label>
+            <select id="Branch" name="Branch">
+                <option sekected>Select</option>
+                <option value="Alto">Data Science</option>
+                <option value="AIML">AIML</option>
+                <option value="Elc">Elc</option>
+                <option value="ECE">ECE</option>
+                <option value="Mechanical">Mechanical</option>
+            </select>
+            <br>
+            <br>
+            <label for="radio">Favourite Language</label>
+            <br>
+            <input type="radio" id="html" value="HTML">Html</input>
+            <input type="radio" id="CSS" value="CSS">CSS</input>
+            <input type="radio" id="Cpp" value="Cpp">Cpp</input>
+            <input type="radio" id="Python" value="Python">Python</input>
+            <br>
+            <br>
+            <label for="Interest">Your Interest</label>
+            <br>
+            <input type="checkbox" id="Interest" name="Interest1" value="WebDev">
+            <label for="Interest1">Web Dev</label><br>
+            <input type="checkbox" id="Interest" name="Interest2">
+            <label for="Interest2">Data Analyst</label><br>
+            <input type="checkbox" id="Interest" name="Interest3">
+            <label for="Interest3">Business Analyst</label><br>
+            <br>
+            <label>Upload Here!</label>
+            <br>
+            <input type="file" id="file">
+            <br>
+            <br>
+            <label>Write Your Feedback Here</label>
+            <br>
+            <textarea name="feedback" rows="3" cols="20">Feedback</textarea>
+            <br>
+            <br>
+            <input type="submit" id="button" value="submit"></input>
+        </form>
+    </center>
+
+</body>
+
 </html>
