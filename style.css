@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+.hey{
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    display: block;
+    width: 50% ;
+}
+body{
+    background-color: lightblue;
+}
+img{
+    margin:auto;
+    padding: auto;
+}
