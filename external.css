@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.home {
+    background-color: lightgray;
+    padding: 10px;
+    display: block;
+}
+
+.home ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.home li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.home a {
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 8px 12px;
+    color: black;
+}
+
+
+.nav2 {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.nav2 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav2 li {
+    float: left;
+    margin-right: 20px;
+}
+
+.nav2 a {
+    background-color: lightgreen;
+    padding: 8px 12px;
+    color: black;
+}
+
